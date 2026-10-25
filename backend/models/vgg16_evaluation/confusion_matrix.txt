@@ -1,0 +1,9 @@
+Rows = Actual class
+Columns = Predicted class
+
+Classes: glioma, meningioma, notumor, pituitary
+
+300 34 49 6
+5 363 22 8
+0 0 400 0
+2 11 5 396

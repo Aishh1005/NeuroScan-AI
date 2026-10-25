@@ -1,0 +1,52 @@
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Generated test outputs
+test_images/
+test_outputs/
+reports/
+
+# Local and combined datasets — keep out of GitHub
+dataset/
+brisc2025/
+combined_dataset/
+clean_combined_dataset/
+validator_dataset/
+validator_training_data/
+
+# Local model files — review and store separately if large
+*.pt
+*.pth
+*.keras
+*.h5
+*.onnx
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded MRI images and generated analysis outputs
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Training logs
+ml/training/training_log.csv
+
+# Generated segmentation examples
+models/segmentation_samples/
