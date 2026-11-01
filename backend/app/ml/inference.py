@@ -53,14 +53,12 @@ import open_clip
 import os
 import uuid
 import json
-
 import numpy as np
 
 import torch
 import torch.nn.functional as F
 import torch.nn as nn
 
-import tensorflow as tf
 
 from PIL import Image, ImageFilter
 
@@ -248,6 +246,8 @@ class ClassifierService:
 
         if cls._loaded:
             return
+
+        import tensorflow as tf
 
 
         # ====================================================
@@ -1577,6 +1577,8 @@ class SegmentationService:
 
         if cls._loaded:
             return
+
+        import tensorflow as tf
 
 
         # ====================================================
